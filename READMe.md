@@ -1,3 +1,10 @@
+# Overview
+Implementation of encoder-decoder model using LSTMs, along with Attention and 3 kinds of scheduled sampling - linear, exponential, and inverse-sigmoid decay. The model accomplishes semantic parsing by translating a sentence into Prolog.
+
+# Dataset
+Geoquery dataset (Zelle and Mooney, 1996). 
+
+#
 To run original model with Attention: `python3 main.py` <br/>
 To run with linear scheduled sampling: `python3 main_ss_linear.py` <br/>
 To run with inverse sigmoid scheduled sampling: `python3 main_ss_siginv.py` <br/>
